@@ -6,6 +6,8 @@
 
 /config/database.yml
 
+Gemfile.lock
+
 # Ignore bundler config.
 /.bundle
 
