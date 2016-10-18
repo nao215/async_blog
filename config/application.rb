@@ -8,8 +8,6 @@ Bundler.require(*Rails.groups)
 
 module AsyncBlog
   class Application < Rails::Application
-
-		config.assets.enabled = false
-
+    config.assets.enabled = false
   end
 end
