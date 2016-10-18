@@ -8,6 +8,9 @@
 
 Gemfile.lock
 
+# Ignore generated files
+/public/javascripts/*
+
 # Ignore bundler config.
 /.bundle
 
