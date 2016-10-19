@@ -18,6 +18,7 @@ module.exports = {
   },
 
   module: {
+
     loaders: [
       {
         test: /.jsx?$/,
@@ -26,6 +27,11 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+
+     {
+        test: /\.css$/,
+        loaders: ['style', 'css?modules&importLoaders=1&localIdentName=[path][name]-[local]-[hash:base64:5]']
       }
     ]
   }
