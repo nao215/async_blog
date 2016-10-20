@@ -1,6 +1,6 @@
 # ASYNC_BLOG
 
-Tell me more good name for this pj.
+Tell me better name for this pj.
 
 ## Environments
 
