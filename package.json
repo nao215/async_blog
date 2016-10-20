@@ -6,6 +6,14 @@
   "directories": {
     "test": "test"
   },
+  "scripts": {
+    "lint:js": "eslint \"app/assets/**/*.js\"; exit 0",
+    "lint": "npm run lint:js",
+    "build:js": "./node_modules/webpack/bin/webpack.js",
+    "build": "npm run build:js",
+    "watch:js": "watch 'npm run lint:js & npm run build:js' 'app/assets'",
+    "watch": "npm run watch:js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nao215/async_blog.git"
@@ -22,12 +30,13 @@
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "css-loader": "^0.25.0",
-    "style-loader": "^0.13.1",
     "eslint": "^3.8.1",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.4.1",
+    "style-loader": "^0.13.1",
+    "watch": "^1.0.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
