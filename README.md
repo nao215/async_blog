@@ -1,24 +1,19 @@
-# README
+# ASYNC_BLOG
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tell me more good name for this pj.
 
-Things you may want to cover:
+## Environments
 
-* Ruby version
+### Versions
+- ruby 2.3.1
+- node v6.1.0
 
-* System dependencies
+### How to start
+`bundle install`
+`npm i`
 
-* Configuration
+## How to build
+`npm run build`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to development
+`npm run watch` and develop frontend tasks
