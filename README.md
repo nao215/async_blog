@@ -12,8 +12,8 @@ Tell me better name for this pj.
 `bundle install`
 `npm i`
 
-## How to build
+### How to build
 `npm run build`
 
-## How to development
+### How to development
 `npm run watch` and develop frontend tasks
