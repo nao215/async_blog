@@ -1,6 +1,7 @@
 # ASYNC_BLOG
 
 Tell me better name for this pj.
+This pj is for try new technology.
 
 ## Environments
 
