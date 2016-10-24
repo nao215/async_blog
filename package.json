@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/nao215/async_blog#readme",
   "devDependencies": {
+    "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",

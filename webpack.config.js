@@ -1,20 +1,19 @@
 const path = require('path');
-const webpack = require('webpack');
 
 module.exports = {
 
   entry: {
-		javascript: './app/assets/javascripts/main.jsx'
-	},
+    javascript: './app/assets/javascripts/App.jsx',
+  },
 
   output: {
-		path: path.join(__dirname, '/public/javascripts'),
-		filename: 'app.js'
-	},
+    path: path.join(__dirname, '/public/javascripts'),
+    filename: 'app.js',
+  },
 
   devServer: {
     contentBase: 'public',
-    port: 3000
+    port: 3000,
   },
 
   module: {
@@ -25,14 +24,14 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         query: {
-          presets: ['es2015', 'react']
-        }
+          presets: ['es2015', 'react'],
+        },
       },
 
-     {
+      {
         test: /\.css$/,
-        loaders: ['style', 'css?modules&importLoaders=1&localIdentName=[path][name]-[local]-[hash:base64:5]']
-      }
-    ]
-  }
-}
+        loaders: ['style', 'css?modules&importLoaders=1&localIdentName=[path][name]-[local]-[hash:base64:5]'],
+      },
+    ],
+  },
+};
