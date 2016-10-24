@@ -1,6 +1,8 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
+  around_filter :hypernova_render_support
+
   # GET /posts
   # GET /posts.json
   def index
