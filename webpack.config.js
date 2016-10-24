@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
 
   entry: {
-    javascript: './app/assets/javascripts/App.jsx',
+    javascript: './app/assets/javascripts/components/Main.jsx',
   },
 
   output: {
