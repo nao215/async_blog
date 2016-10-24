@@ -10,9 +10,10 @@
     "lint:js": "eslint \"app/assets/**/*.js\"; exit 0",
     "lint": "npm run lint:js",
     "build:js": "./node_modules/webpack/bin/webpack.js",
-    "build": "npm run build:js",
+    "build:renderer": "./node_modules/.bin/babel-node hypernova.js --presets es2015,react; exit 0",
+    "build": "npm run build:js & npm run build:renderer",
     "watch:js": "watch 'npm run lint:js & npm run build:js' 'app/assets'",
-    "watch": "npm run watch:js"
+    "watch": "npm run build & npm run watch:js"
   },
   "repository": {
     "type": "git",
