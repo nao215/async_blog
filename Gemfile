@@ -6,6 +6,9 @@ gem 'mysql2'
 # Lint for ruby
 gem 'rubocop'
 
+# Server Side Rendering
+gem 'hypernova'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
 # Use Puma as the app server

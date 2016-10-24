@@ -42,6 +42,8 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "hypernova": "^2.0.0",
+    "hypernova-react": "^2.0.0"
   }
 }
