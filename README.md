@@ -3,6 +3,8 @@
 Tell me better name for this pj.
 This pj is for try new technology.
 
+THIS IS A PLACE TO TRY **NEW TECHNOLOGY!!!**
+
 ## Environments
 
 ### Versions
