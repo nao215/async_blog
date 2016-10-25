@@ -8,12 +8,12 @@
   },
   "scripts": {
     "lint:js": "eslint \"app/assets/**/*.js\"; exit 0",
-    "lint": "npm run lint:js",
+    "lint": "yarn lint:js",
     "build:js": "./node_modules/webpack/bin/webpack.js",
     "build:renderer": "./node_modules/.bin/babel-node hypernova.js --presets es2015,react; exit 0",
-    "build": "npm run build:js & npm run build:renderer",
-    "watch:js": "watch 'npm run lint:js & npm run build:js' 'app/assets'",
-    "watch": "npm run build & npm run watch:js"
+    "build": "yarn build:js & yarn build:renderer",
+    "watch:js": "watch 'yarn lint:js & yarn build:js' 'app/assets'",
+    "watch": "yarn build & yarn watch:js"
   },
   "repository": {
     "type": "git",
